@@ -49,7 +49,7 @@ const ReadyToSell = () => {
           <div className="flex justify-center gap-1">
             <div className="flex gap-4">
               <img src={profileimg} alt="" className="w-10 h-10 rounded-full" />
-              <div className="flex flex-col justify-between">
+              <div className="flex flex-col ">
                 <h1>Diana Russel</h1>
                 <h1 className="text-[#888B97] text-sm">Dianne Russel</h1>
               </div>
@@ -66,27 +66,30 @@ const ReadyToSell = () => {
       </div>
 
       <div className="relative ">
-        <ReactPlayer
-          url="https://res.cloudinary.com/dakiak4mc/video/upload/v1682426318/video6.0f17da99ad9be3169f22_desxmt.mp4"
+        <video
+          src="https://res.cloudinary.com/dakiak4mc/video/upload/v1682426318/video6.0f17da99ad9be3169f22_desxmt.mp4"
           controls
           width="500px"
+          className="rounded-lg"
+          autoPlay
+          loop
           height="100%"
         />
 
         <img
           src={home}
           alt=""
-          className=" w-[250px] absolute bottom-0 right-0 "
+          className=" w-[250px] rounded-lg absolute bottom-0 right-0 "
         />
         <img
           src={home}
           alt=""
-          className=" w-[200px] absolute bottom-0 right-1/2 "
+          className=" w-[150px] rounded-lg absolute bottom-0 right-1/2 "
         />
         <img
           src={home}
           alt=""
-          className="  w-[100px]  absolute bottom-0 left-0 "
+          className="  w-[100px] rounded-lg  absolute bottom-0 left-0 "
         />
       </div>
     </div>
