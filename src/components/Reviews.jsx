@@ -19,6 +19,7 @@ const Reviews = () => {
             drag: true,
             autoplay: true,
             speed: 1000,
+
             interval: 2000,
             gap: "1rem",
             pagination: true,
