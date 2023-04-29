@@ -8,7 +8,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
-    <div className="w-[80%] mx-auto flex justify-between items-center p-4">
+    <div className="w-[80%]  mx-auto flex justify-between items-center p-4">
       <div className="flex flex-col gap-2">
         <div className="flex">
           <p
