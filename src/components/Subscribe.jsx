@@ -32,16 +32,20 @@ const Subscribe = () => {
       </div>
       <div className="flex flex-col gap-4 justify-center items-center">
         <div className="flex flex-col ">
-          <h1 className="font-bold text-center text-[#1B1C57] text-2xl">Subscribe For More Info</h1>
-          <h1 className="text-2xl text-[#1B1C57] text-center text-[] font-bold">and update from Hounter</h1>
+          <h1 className="font-bold text-center text-[#1B1C57] lexend-600 text-2xl">
+            Subscribe For More Info
+          </h1>
+          <h1 className="text-2xl text-[#1B1C57] text-center lexend-600 font-bold">
+            and update from Hounter
+          </h1>
         </div>
-        <div className="relative w-[80%] ">
+        <div className="relative  ">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <GoMail className="w-5 h-5 text-blue-500 " />
           </div>
           <input
             type="text"
-            className="block w-full p-4 pl-10 text-sm bg-white border border-gray-400  rounded-3xl text-black   h-[45px]  "
+            className="block w-full p-4 pl-10 text-sm bg-white border border-gray-400  rounded-3xl text-black w-[400px]   h-[45px]  "
             placeholder="Enter your email address"
           />
           <div class="absolute inset-y-0 right-0 flex items-center pr-1 pointer-events-none">

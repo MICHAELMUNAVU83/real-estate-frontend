@@ -1,0 +1,21 @@
+.slider-container {
+  position: relative;
+}
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.slider-arrow-left {
+  left: 0;
+}
+.slider-arrow-right {
+  right: 0;
+}

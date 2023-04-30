@@ -6,10 +6,12 @@ import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 import Articles from "./components/Articles";
 import Hero from "./components/Hero";
+import Featured from "./components/Featured";
 function App() {
   return (
     <div>
       <Hero />
+      <Featured />
       <ReadyToSell />
       <Reviews />
       <Articles />

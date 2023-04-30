@@ -8,16 +8,16 @@ const Articles = () => {
     <div className="my-24">
       <div className="flex flex-col  justify-center items-center">
         <p className="bg-[#F59E0B] w-[70px] text-sm h-[2px] rounded-2xl"></p>
-        <p className="text-[#F59E0B] text-sm">
+        <p className="text-[#F59E0B] lexend-500 text-sm">
           See tips and trick from our partnership
         </p>
-        <p className="text-3xl text-[#1B1C57] font-bold">Find out more about</p>
-        <p className="text-3xl text-[#1B1C57] font-bold">selling and buying homes</p>
-        <button className="p-2 my-8 hover:scale-105 transition-all duration-500 text-white bg-green-500 font-bold rounded-3xl">
+        <p className="text-3xl text-[#1B1C57] lexend-600 font-bold">Find out more about</p>
+        <p className="text-3xl text-[#1B1C57] lexend-600 font-bold">selling and buying homes</p>
+        <button className="p-2 my-8 lexend-600 hover:scale-105 transition-all duration-500 text-white bg-green-500 font-semibold rounded-3xl">
           More Articles
         </button>
       </div>
-      <div className="w-[90%]  mx-auto flex justify-between items-center p-4">
+      <div className="w-[90%] lexend-500  mx-auto flex justify-between items-center p-4">
         <div className="flex flex-col gap-8">
           <div className="flex gap-2">
             <img
