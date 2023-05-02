@@ -19,7 +19,7 @@ const Featured = () => {
   return (
     <div>
       <div className="mx-auto w-[90%] my-20">
-        <div className="flex justify-around">
+        <div className="flex md:flex-row flex-col justify-between">
           <div>
             <div className="flex gap-1  items-center">
               <p className="bg-[#F59E0B] w-[30px] text-sm h-[2px] rounded-2xl"></p>
@@ -29,26 +29,46 @@ const Featured = () => {
               Featured Properties
             </h1>
           </div>
-          <div className="flex gap-2 lexend-500 cursor-pointer bg-[#D1FAE5] h-[70%] text-[#10B981] p-2 rounded-3xl">
-            <BsFillHouseFill className=" text-2xl" />
-            <p>House</p>
-          </div>
+          <div className="flex gap-4 items-center">
+            <div className="flex gap-2 items-center lexend-500 cursor-pointer bg-[#D1FAE5] h-[70%] text-[#10B981] p-2 rounded-3xl">
+              <BsFillHouseFill className=" text-2xl" />
+              <p>House</p>
+            </div>
 
-          <div className="flex gap-2 lexend-500  cursor-pointer h-[70%] border-[#E0E3EB] border-2 p-2  rounded-3xl">
-            <MdOutlineVilla className="text-[#888B97] text-2xl" />
-            <p>Villa</p>
-          </div>
-          <div className="flex cursor-pointer gap-2 lexend-500  h-[70%] border-[#E0E3EB] border-2 p-2  rounded-3xl">
-            <MdApartment className="text-[#888B97] text-2xl" />
-            <p>Apartment</p>
+            <div className="flex gap-2 lexend-500 items-center  cursor-pointer h-[70%] border-[#E0E3EB] border-2 p-2  rounded-3xl">
+              <MdOutlineVilla className="text-[#888B97] text-2xl" />
+              <p>Villa</p>
+            </div>
+            <div className="flex cursor-pointer items-center gap-2 lexend-500  h-[70%] border-[#E0E3EB] border-2 p-2  rounded-3xl">
+              <MdApartment className="text-[#888B97] text-2xl" />
+              <p>Apartment</p>
+            </div>
           </div>
         </div>
 
         <Swiper
-          slidesPerView={3}
+          slidesPerView={1}
           spaceBetween={20}
           loop={true}
-          className="flex jsutify-center items-center"
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            // when window width is >= 1200px
+
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
+          className="my-4"
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

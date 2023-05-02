@@ -8,7 +8,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
-    <div className="w-[80%]  mx-auto flex justify-between items-center p-4">
+    <div className="w-[80%] md:flex-row gap-8 flex-col mx-auto flex justify-between items-center p-4">
       <div className="flex flex-col gap-2">
         <div className="flex">
           <p
@@ -20,7 +20,7 @@ const Footer = () => {
             }}
           ></p>
         </div>
-        <p className="text-[#626687] w-[50%]">
+        <p className="text-[#626687] md:w-[50%]">
           We provide information about properties such as houses, villas and
           apartments to help people find their dream home
         </p>
@@ -31,7 +31,7 @@ const Footer = () => {
           <FaFacebookF className="text-[#3C4563] text-2xl" />
         </div>
       </div>
-      <div className="flex gap-12">
+      <div className="flex  gap-4">
         <div className="flex text-[#888B97] flex-col gap-2">
           <h1 className="text-[#0E1735] font-bold">Property</h1>
           <p>House</p>

@@ -3,7 +3,7 @@ import { GoMail } from "react-icons/go";
 import subscribeimg from "../images/subscribeimg.jpg";
 const Subscribe = () => {
   return (
-    <div className="w-[80%] rounded-2xl my-8 flex justify-around items-center  h-[250px] mx-auto bg-gradient bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-100">
+    <div className="w-[80%] rounded-2xl my-8 flex md:flex-row flex-col justify-around items-center gap-4  py-8 mx-auto bg-gradient bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-100">
       <div className="flex gap-12">
         <div className="flex flex-col gap-12 items-center">
           <img
@@ -39,17 +39,18 @@ const Subscribe = () => {
             and update from Hounter
           </h1>
         </div>
-        <div className="relative  lexend-500 w-[400px] ">
+        <div className="relative  lexend-500 md:w-[150%] w-[95%] ">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <GoMail className="w-5 h-5 text-blue-500 " />
           </div>
           <input
             type="text"
-            className="block w-full p-4 pl-10 text-sm bg-white border border-gray-400  rounded-3xl text-black    h-[45px]  "
-            placeholder="Enter your email address"
+            className="block text-sm w-full p-4 pl-10  bg-white border border-gray-400  rounded-3xl text-black    h-[45px]  "
+            placeholder="Enter your email"
+
           />
-          <div class="absolute inset-y-0 right-0 flex items-center pr-1 pointer-events-none">
-            <button className="bg-green-500 rounded-3xl pl-2 font-semibold text-white w-[100px] h-[40px]">
+          <div class="absolute inset-y-0 right-0 flex items-center pr-1 cursor-pointer">
+            <button className="bg-green-500 md:text-md text-xs   rounded-3xl p-2 font-semibold text-white md:w-[100px] h-[40px]">
               Subscribe
             </button>
           </div>

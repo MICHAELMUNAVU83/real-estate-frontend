@@ -11,26 +11,30 @@ const Articles = () => {
         <p className="text-[#F59E0B] lexend-500 text-sm">
           See tips and trick from our partnership
         </p>
-        <p className="text-3xl text-[#1B1C57] lexend-600 font-bold">Find out more about</p>
-        <p className="text-3xl text-[#1B1C57] lexend-600 font-bold">selling and buying homes</p>
+        <p className="md:text-3xl text-xl text-[#1B1C57] lexend-600 font-bold">
+          Find out more about
+        </p>
+        <p className="md:text-3xl text-xl text-[#1B1C57] lexend-600 font-bold">
+          selling and buying homes
+        </p>
         <button className="p-2 my-8 lexend-600 hover:scale-105 transition-all duration-500 text-white bg-green-500 font-semibold rounded-3xl">
           More Articles
         </button>
       </div>
-      <div className="w-[90%] lexend-500  mx-auto flex justify-between items-center p-4">
-        <div className="flex flex-col gap-8">
-          <div className="flex gap-2">
+      <div className="w-[90%] lexend-500 md:flex-row flex-col-reverse gap-8  mx-auto flex justify-between items-center p-4">
+        <div className="flex flex-col  gap-8">
+          <div className="flex md:flex-row flex-col gap-2">
             <img
               src={house1}
               alt=""
-              className="w-[200px] h-[144px] rounded-xl"
+              className="md:w-[200px] md:h-[144px] h-[300px] rounded-xl"
             />
             <div className="flex justify-between flex-col">
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <p>Dianne Russel</p>
               </div>
-              <p className="text-[#1B1C57] w-[80%]">
+              <p className="text-[#1B1C57] md:w-[80%]">
                 The things we need to check when we want to buy a house
               </p>
               <div className="flex gap-2">
@@ -39,18 +43,19 @@ const Articles = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-2">
+
+          <div className="flex md:flex-row flex-col gap-2">
             <img
               src={house1}
               alt=""
-              className="w-[200px] h-[144px] rounded-xl"
+              className="md:w-[200px] md:h-[144px] h-[300px] rounded-xl"
             />
             <div className="flex justify-between flex-col">
-              <div className="flex text-[#3C4563] gap-4 items-center">
+              <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <p>Dianne Russel</p>
               </div>
-              <p className="text-[#1B1C57] w-[80%]">
+              <p className="text-[#1B1C57] md:w-[80%]">
                 The things we need to check when we want to buy a house
               </p>
               <div className="flex gap-2">
@@ -59,18 +64,18 @@ const Articles = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-2">
+          <div className="flex md:flex-row flex-col gap-2">
             <img
               src={house1}
               alt=""
-              className="w-[200px] h-[144px] rounded-xl"
+              className="md:w-[200px] md:h-[144px] h-[300px] rounded-xl"
             />
             <div className="flex justify-between flex-col">
-              <div className="flex text-[#3C4563] gap-4 items-center">
+              <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <p>Dianne Russel</p>
               </div>
-              <p className="text-[#1B1C57] w-[80%] ">
+              <p className="text-[#1B1C57] md:w-[80%]">
                 The things we need to check when we want to buy a house
               </p>
               <div className="flex gap-2">
