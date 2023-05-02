@@ -6,14 +6,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
+
 import { BsFillHouseFill } from "react-icons/bs";
 import { MdOutlineVilla } from "react-icons/md";
 import { MdApartment } from "react-icons/md";
 
 // import required modules
-import { EffectCoverflow, Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 const Featured = () => {
   return (
     <div>
@@ -44,32 +45,23 @@ const Featured = () => {
         </div>
 
         <Swiper
-          effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"3"}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: true,
-          }}
+          slidesPerView={3}
+          spaceBetween={20}
           loop={true}
-          coverflowEffect={{
-            rotate: 40,
-            stretch: 20,
-            depth: 120,
-            modifier: 1,
-            slideShadows: false,
+          className="flex jsutify-center items-center"
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
           }}
-          pagination={true}
-          modules={[EffectCoverflow, Pagination, Autoplay]}
+          modules={[Pagination, Autoplay]}
         >
-          <SwiperSlide>
+          <SwiperSlide className="w-[33%]">
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
                   src={house1}
                   alt=""
-                  className="w-[340px] h-[382px] rounded-2xl"
+                  className="w-[100%] h-[382px] rounded-2xl"
                 />
                 <p className="absolute bottom-12 left-4 text-[#EF4444] flex  gap-2 bg-[#FEE2E2] rounded-3xl p-2">
                   <AiFillFire className="text-2xl" />
@@ -87,13 +79,13 @@ const Featured = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="w-[33%]">
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
                   src={house1}
                   alt=""
-                  className="w-[340px] h-[382px] rounded-2xl"
+                  className="w-[100%] h-[382px] rounded-2xl"
                 />
                 <p className="absolute bottom-12 left-4 text-[#EF4444] flex  gap-2 bg-[#FEE2E2] rounded-3xl p-2">
                   <AiFillFire className="text-2xl" />
@@ -111,13 +103,13 @@ const Featured = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="w-[33%]">
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
                   src={house1}
                   alt=""
-                  className="w-[340px] h-[382px] rounded-2xl"
+                  className="w-[100%] h-[382px] rounded-2xl"
                 />
                 <p className="absolute bottom-12 left-4 bg-[#D1FAE5] flex  gap-2 text-[#047857] rounded-3xl p-2">
                   <AiFillFire className="text-2xl" />
@@ -135,13 +127,13 @@ const Featured = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="w-[33%]">
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
                   src={house1}
                   alt=""
-                  className="w-[340px] h-[382px] rounded-2xl"
+                  className="w-[100%] h-[382px] rounded-2xl"
                 />
                 <p className="absolute bottom-12 left-4 text-[#1D4ED8] flex  gap-2 bg-[#DBEAFE] rounded-3xl p-2">
                   <AiFillFire />

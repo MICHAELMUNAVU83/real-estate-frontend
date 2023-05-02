@@ -39,13 +39,13 @@ const Subscribe = () => {
             and update from Hounter
           </h1>
         </div>
-        <div className="relative  ">
+        <div className="relative  lexend-500 w-[400px] ">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <GoMail className="w-5 h-5 text-blue-500 " />
           </div>
           <input
             type="text"
-            className="block w-full p-4 pl-10 text-sm bg-white border border-gray-400  rounded-3xl text-black w-[400px]   h-[45px]  "
+            className="block w-full p-4 pl-10 text-sm bg-white border border-gray-400  rounded-3xl text-black    h-[45px]  "
             placeholder="Enter your email address"
           />
           <div class="absolute inset-y-0 right-0 flex items-center pr-1 pointer-events-none">

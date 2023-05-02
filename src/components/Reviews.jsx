@@ -1,6 +1,8 @@
 import React from "react";
 import profile from "../images/profile.jpg";
 import home from "../images/home.jpg";
+import house1 from "../images/house1.jpeg";
+import house2 from "../images/house2.jpeg";
 import { IoIosStar } from "react-icons/io";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Pagination, Autoplay } from "swiper";
@@ -41,7 +43,7 @@ const Reviews = () => {
             <div className="w-[80%] mx-auto  text-gray-900">
               <div>
                 <img
-                  src={home}
+                  src={house1}
                   alt=" random imgee"
                   className="w-full block bject-cover object-center rounded-lg shadow-md"
                 />
@@ -145,7 +147,7 @@ const Reviews = () => {
             <div className="w-[80%] mx-auto  text-gray-900">
               <div>
                 <img
-                  src={home}
+                  src={house2}
                   alt=" random imgee"
                   className="w-full block bject-cover object-center rounded-lg shadow-md"
                 />
