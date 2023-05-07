@@ -13,7 +13,7 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 const Reviews = () => {
   return (
-    <div className="bg-[#F1FFFA] py-10 my-8 ">
+    <div id="reviews" className="bg-[#F1FFFA] py-10 my-8 ">
       <div className="flex flex-col  justify-center items-center">
         <p className="bg-[#F59E0B] w-[70px] text-sm h-[2px] rounded-2xl"></p>
         <p className="text-[#F59E0B] lexend-500 text-sm">See our review</p>
@@ -52,15 +52,15 @@ const Reviews = () => {
                   <div className="bg-white   p-8 rounded-lg shadow-lg">
                     <div className="flex items-baseline">
                       <h1 className="md:text-3xl text-sm lexend-600 font-bold text-[#1B1C57]">
-                        Best! I got the house I wanted
+                        Charming and Cozy Home in a Great Location!
                       </h1>
                     </div>
 
-                    <h4 className="mt-1 md:w-[50%] lexend-400 md:text-sm text-xs text-[##626687] ">
-                      Through this website I can get a house with the type and
-                      specifications I want very easily, without a complicated
-                      process to be able to find information on the house we
-                      want.
+                    <h4 className="mt-1  lexend-400 md:text-sm text-xs text-[##626687] ">
+                      If you're looking for a warm and inviting place to call
+                      home, this charming property is a must-see. From the
+                      moment you step inside, you'll feel right at home thanks
+                      to the cozy interior and tasteful decor.
                     </h4>
                     <div className="flex justify-between items-center mt-4">
                       <div className="flex gap-4">
@@ -71,10 +71,10 @@ const Reviews = () => {
                         />
                         <div className="flex flex-col ">
                           <h1 className="lexend-600 md:text-md text-sm font-semibold">
-                            Diana Russel
+                            Apartment owner
                           </h1>
                           <h1 className="text-[#888B97] lexend-400 text-xs md:text-sm">
-                            Dianne Russel
+                            Joshua maina
                           </h1>
                         </div>
                       </div>
@@ -104,15 +104,16 @@ const Reviews = () => {
                   <div className="bg-white   p-8 rounded-lg shadow-lg">
                     <div className="flex items-baseline">
                       <h1 className="md:text-3xl text-sm lexend-600 font-bold text-[#1B1C57]">
-                        Best! I got the house I wanted
+                        Stunning Modern Home with Incredible Views
                       </h1>
                     </div>
 
-                    <h4 className="mt-1 md:w-[50%] lexend-400 md:text-sm text-xs text-[##626687] ">
-                      Through this website I can get a house with the type and
-                      specifications I want very easily, without a complicated
-                      process to be able to find information on the house we
-                      want.
+                    <h4 className="mt-1  lexend-400 md:text-sm text-xs text-[##626687] ">
+                      Looking for a home with a wow factor? Look no further than
+                      this stunning modern property, which boasts breathtaking
+                      views from every angle. The sleek and stylish design is
+                      sure to impress, with an open floor plan, high ceilings,
+                      and plenty of natural light.
                     </h4>
                     <div className="flex justify-between items-center mt-4">
                       <div className="flex gap-4">
@@ -123,10 +124,10 @@ const Reviews = () => {
                         />
                         <div className="flex flex-col ">
                           <h1 className="lexend-600 md:text-md text-sm font-semibold">
-                            Diana Russel
+                            Villa manager
                           </h1>
                           <h1 className="text-[#888B97] lexend-400 text-xs md:text-sm">
-                            Dianne Russel
+                            Kipchoge Keino
                           </h1>
                         </div>
                       </div>
@@ -156,15 +157,16 @@ const Reviews = () => {
                   <div className="bg-white   p-8 rounded-lg shadow-lg">
                     <div className="flex items-baseline">
                       <h1 className="md:text-3xl text-sm lexend-600 font-bold text-[#1B1C57]">
-                        Best! I got the house I wanted
+                        Classic Family Home with Timeless Charm
                       </h1>
                     </div>
 
-                    <h4 className="mt-1 md:w-[50%] lexend-400 md:text-sm text-xs text-[##626687] ">
-                      Through this website I can get a house with the type and
-                      specifications I want very easily, without a complicated
-                      process to be able to find information on the house we
-                      want.
+                    <h4 className="mt-1  lexend-400 md:text-sm text-xs text-[##626687] ">
+                      This classic family home is a true gem, with all the
+                      timeless charm you could want in a home. From the moment
+                      you step inside, you'll be struck by the warm and inviting
+                      atmosphere, with hardwood floors, a cozy fireplace, and
+                      plenty of natural light.
                     </h4>
                     <div className="flex justify-between items-center mt-4">
                       <div className="flex gap-4">
@@ -175,10 +177,10 @@ const Reviews = () => {
                         />
                         <div className="flex flex-col ">
                           <h1 className="lexend-600 md:text-md text-sm font-semibold">
-                            Diana Russel
+                            House Owner
                           </h1>
                           <h1 className="text-[#888B97] lexend-400 text-xs md:text-sm">
-                            Dianne Russel
+                            Michael Munavu
                           </h1>
                         </div>
                       </div>

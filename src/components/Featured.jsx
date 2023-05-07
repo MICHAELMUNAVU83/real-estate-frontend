@@ -1,6 +1,9 @@
 import React from "react";
 import { AiFillFire } from "react-icons/ai";
 import house1 from "../images/house1.jpeg";
+import house2 from "../images/house2.jpg";
+import house3 from "../images/house3.jpg";
+import house4 from "../images/house4.jpg";
 import profile from "../images/profile.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -17,7 +20,7 @@ import { MdApartment } from "react-icons/md";
 import { Pagination, Autoplay } from "swiper";
 const Featured = () => {
   return (
-    <div>
+    <div id="featured">
       <div className="mx-auto w-[90%] my-20">
         <div className="flex md:flex-row flex-col justify-between">
           <div>
@@ -49,6 +52,7 @@ const Featured = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={20}
+          rewind={true}
           loop={true}
           breakpoints={{
             // when window width is >= 640px
@@ -88,12 +92,12 @@ const Featured = () => {
                   <span className="text-[#EF4444] lexend-500 ">Hot Deal</span>
                 </p>
               </div>
-              <p className="text-[#0E1735] font-bold">Roselands House</p>
-              <p className="text-[#3C4563]">$ 35.000.000</p>
+              <p className="text-[#0E1735] font-bold">Juja Villa</p>
+              <p className="text-[#3C4563]">120,000 KSH p/m</p>
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <div className="flex text-sm flex-col">
-                  <p>Dianne Russel</p>
+                  <p>Michael Munavu</p>
                   <p className="text-[#888B97]">2 days ago</p>
                 </div>
               </div>
@@ -103,7 +107,7 @@ const Featured = () => {
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
-                  src={house1}
+                  src={house2}
                   alt=""
                   className="w-[100%] h-[382px] rounded-2xl"
                 />
@@ -112,12 +116,12 @@ const Featured = () => {
                   <span className="text-[#EF4444] lexend-500 ">Hot Deal</span>
                 </p>
               </div>
-              <p className="text-[#0E1735] font-bold">Roselands House</p>
-              <p className="text-[#3C4563]">$ 35.000.000</p>
+              <p className="text-[#0E1735] font-bold">Parklands House</p>
+              <p className="text-[#3C4563]">90,000 KSH p/m</p>
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <div className="flex text-sm flex-col">
-                  <p>Dianne Russel</p>
+                  <p>Michael Munavu</p>
                   <p className="text-[#888B97]">2 days ago</p>
                 </div>
               </div>
@@ -127,7 +131,7 @@ const Featured = () => {
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
-                  src={house1}
+                  src={house3}
                   alt=""
                   className="w-[100%] h-[382px] rounded-2xl"
                 />
@@ -136,12 +140,12 @@ const Featured = () => {
                   <span className=" lexend-500 ">Best Deals</span>
                 </p>
               </div>
-              <p className="text-[#0E1735] font-bold">Roselands House</p>
-              <p className="text-[#3C4563]">$ 35.000.000</p>
+              <p className="text-[#0E1735] font-bold">Westlands palace</p>
+              <p className="text-[#3C4563]">150,000 KSH p/m</p>
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <div className="flex text-sm flex-col">
-                  <p>Dianne Russel</p>
+                  <p>Michael Munavu</p>
                   <p className="text-[#888B97]">2 days ago</p>
                 </div>
               </div>
@@ -151,7 +155,7 @@ const Featured = () => {
             <div className="flex flex-col gap-2">
               <div className="relative">
                 <img
-                  src={house1}
+                  src={house4}
                   alt=""
                   className="w-[100%] h-[382px] rounded-2xl"
                 />
@@ -161,11 +165,11 @@ const Featured = () => {
                 </p>
               </div>
               <p className="text-[#0E1735] font-bold">Roselands House</p>
-              <p className="text-[#3C4563]">$ 35.000.000</p>
+              <p className="text-[#3C4563]">100,000 KSH p/m</p>
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
                 <div className="flex text-sm flex-col">
-                  <p>Dianne Russel</p>
+                  <p>Michael Munavu</p>
                   <p className="text-[#888B97]">2 days ago</p>
                 </div>
               </div>

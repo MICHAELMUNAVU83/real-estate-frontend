@@ -8,7 +8,7 @@ import home from "../images/home.jpg";
 import { BsTelephoneFill } from "react-icons/bs";
 const ReadyToSell = () => {
   return (
-    <div className="my-24 mx-auto ">
+    <div id="readytosell" className="my-24 mx-auto ">
       <div className="p-4 md:w-[90%] w-[90%] mx-auto md:flex-row flex-col flex justify-between ">
         <div className="flex flex-col">
           <div className="flex gap-1 lexend-500 items-center">
@@ -58,7 +58,7 @@ const ReadyToSell = () => {
                   className="md:w-10 md:h-10 w-8 h-8 rounded-full"
                 />
                 <div className="flex flex-col ">
-                  <h1 className="lexend-500  text-[#0E1735]">Diana Russel</h1>
+                  <h1 className="lexend-500  text-[#0E1735]">Michael Munavu</h1>
                   <h1 className="text-[#888B97] lexend-400 text-sm">Manager</h1>
                 </div>
               </div>

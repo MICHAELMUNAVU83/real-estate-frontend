@@ -38,7 +38,7 @@ const Hero = () => {
           />
           <div class="absolute inset-y-0 right-0 flex items-center pr-1 ">
             <button className="bg-green-500 cursor-pointer rounded-3xl pl-2 font-semibold text-white w-[100px] h-[40px]">
-              Search 
+              Search
             </button>
           </div>
         </div>
@@ -53,23 +53,35 @@ const Hero = () => {
         }}
       >
         <div className="flex w-[80%] gap-2 mx-auto md:text-md text-sm text-white  font-bold justify-around">
-          <h1 className="border-white flex items-center lexend-600 border-2 cursor-pointer hover:scale-105 transition-all duration-300  rounded-3xl p-2">
+          <a
+            href="#featured"
+            className="border-white flex items-center lexend-600 border-2 cursor-pointer hover:scale-105 transition-all duration-300  rounded-3xl p-2"
+          >
             Featured
-          </h1>
-          <h1 className="border-white border-2 lexend-600  cursor-pointer hover:scale-105 transition-all duration-300 rounded-3xl p-2">
-            Reviews
-          </h1>
-          <h1 className="border-white border-2  lexend-600 cursor-pointer hover:scale-105 transition-all duration-300 rounded-3xl p-2">
-            Articles
-          </h1>
-          <h1 className="border-white border-2 flex lexend-600 cursor-pointer hover:scale-105 transition-all duration-300  rounded-3xl p-2">
+          </a>
+          <a
+            href="#readytosell"
+            className="border-white border-2 flex gap-1 lexend-600 cursor-pointer hover:scale-105 transition-all duration-300  rounded-3xl p-2"
+          >
             Ready <p>to</p>
             sell
-          </h1>
+          </a>
+          <a
+            href="#reviews"
+            className="border-white border-2 lexend-600  cursor-pointer hover:scale-105 transition-all duration-300 rounded-3xl p-2"
+          >
+            Reviews
+          </a>
+          <a
+            href="#articles"
+            className="border-white border-2  lexend-600 cursor-pointer hover:scale-105 transition-all duration-300 rounded-3xl p-2"
+          >
+            Articles
+          </a>
         </div>
         <div className="flex md:flex-row  gap-4 flex-col justify-around">
           <div className="bg-white md:w-[40%] w-[80%] mx-auto gap-2 flex justify-between rounded-3xl p-4">
-            <img src={onek} alt="" className="w-20 md:w-29  " />
+            <img src={onek} alt="" className="w-20 md:w-22  " />
             <div className="flex flex-col gap-1 justify-between">
               <h1 className="text-xl font-bold lexend-600 text-[1B1C57]">
                 1k + People

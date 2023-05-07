@@ -1,11 +1,13 @@
 import React from "react";
 import house1 from "../images/house1.jpeg";
 import house2 from "../images/house2.jpeg";
+import house3 from "../images/house3.jpg";
+import house4 from "../images/house4.jpg";
 import profile from "../images/profile.jpg";
 import { BsClockFill } from "react-icons/bs";
 const Articles = () => {
   return (
-    <div className="my-24">
+    <div id="articles" className="my-24">
       <div className="flex flex-col  justify-center items-center">
         <p className="bg-[#F59E0B] w-[70px] text-sm h-[2px] rounded-2xl"></p>
         <p className="text-[#F59E0B] lexend-500 text-sm">
@@ -32,7 +34,7 @@ const Articles = () => {
             <div className="flex justify-between flex-col">
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
-                <p>Dianne Russel</p>
+                <p>Michael Munavu</p>
               </div>
               <p className="text-[#1B1C57] md:w-[80%]">
                 The things we need to check when we want to buy a house
@@ -46,14 +48,14 @@ const Articles = () => {
 
           <div className="flex md:flex-row flex-col gap-2">
             <img
-              src={house1}
+              src={house2}
               alt=""
               className="md:w-[200px] md:h-[144px] h-[300px] rounded-xl"
             />
             <div className="flex justify-between flex-col">
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
-                <p>Dianne Russel</p>
+                <p>Michael Munavu</p>
               </div>
               <p className="text-[#1B1C57] md:w-[80%]">
                 The things we need to check when we want to buy a house
@@ -66,14 +68,14 @@ const Articles = () => {
           </div>
           <div className="flex md:flex-row flex-col gap-2">
             <img
-              src={house1}
+              src={house3}
               alt=""
               className="md:w-[200px] md:h-[144px] h-[300px] rounded-xl"
             />
             <div className="flex justify-between flex-col">
               <div className="flex gap-4 text-[#3C4563] items-center">
                 <img src={profile} alt="" className="w-10 h-10 rounded-full" />
-                <p>Dianne Russel</p>
+                <p>Michael Munavu</p>
               </div>
               <p className="text-[#1B1C57] md:w-[80%]">
                 The things we need to check when we want to buy a house
@@ -90,7 +92,7 @@ const Articles = () => {
           <img src={house2} alt="" className="w-[560px] h-[280px] rounded-xl" />
           <div className="flex gap-4 items-center">
             <img src={profile} alt="" className="w-10 h-10 rounded-full" />
-            <p>Dianne Russel</p>
+            <p>Michael Munavu</p>
           </div>
           <h1 className="text-[#1B1C57]">
             12 Things to know before buying a house
